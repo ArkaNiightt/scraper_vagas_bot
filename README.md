@@ -78,3 +78,12 @@
    ```
     scrapy crawl vagabot -O vagas.csv (ou json, xml)
    ```
+ + Depois que o bot varrer todas as paginas, criará um arquivo:
+   
+     <div align="left">
+        <img src="https://img001.prntscr.com/file/img001/NNji6PlEQ_iC9ZF5FjD7mQ.jpeg" alt="Code" width="20%">
+     </div>
++ Baixar
+    ```
+    git clone https://github.com/ArkaNiightt/scraper_vagas_bot.git
+    ```
