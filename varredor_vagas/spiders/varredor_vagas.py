@@ -85,4 +85,5 @@ class Varredor_VagasSpider(scrapy.Spider):
                 yield scrapy.Request(url=link_next_full, callback=self.parse)
         except Exception as e:
             print("Chegamos na ultima pagina")
+            driver.close()
             print("Erro:", e)
